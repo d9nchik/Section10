@@ -2,8 +2,6 @@ package exercise12;
 
 import exercise4.MyPoint;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Triangle2D t1 = new Triangle2D(new MyPoint(2.5, 2), new MyPoint(4.2, 3),
