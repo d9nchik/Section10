@@ -14,7 +14,7 @@ public class MyStringBuilder1 {
 
     public MyStringBuilder1 append(MyStringBuilder1 s) {
         if (this.size + s.size > str.length) {
-            char[] temp = new char[str.length * 2];
+            char[] temp = new char[(this.size + s.size) * 2];
             if (this.size >= 0) System.arraycopy(str, 0, temp, 0, this.size);
             str = temp;
         }
