@@ -1,7 +1,5 @@
 package exercise28;
 
-import exercise27.MyStringBuilder1;
-
 public class MyStringBuilder2 {
     char[] str;
     int size;
