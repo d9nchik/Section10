@@ -60,7 +60,7 @@ public class MyRectangle2D {
     }
 
     public boolean contains(MyRectangle2D r){
-        return (this.x - this.width / 2 < r.x && x < this.x + this.width / 2) && (this.y - this.height / 2 < y && y < this.y + this.height / 2);
+        return (this.x - this.width / 2 < r.x && x < this.x + this.width / 2) && (this.y - this.height / 2 < r.y && r.y < this.y + this.height / 2);
     }
 
     public boolean overlaps(MyRectangle2D r){
